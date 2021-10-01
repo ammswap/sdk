@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@ammswap/core@^3.0.0":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@ammswap/core/-/core-3.0.1.tgz#be204e4fd883c262512ccdf3d3553262b820a045"
+  integrity sha512-zyYbz1JWLvESxp9Px3m2j4pkS/EzE4hZhRXaGWu9xN/OW4cbi/+DbqSDvYyJxNWSPrabtZLD9huwY4RvckRBTg==
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.14.5", "@babel/code-frame@^7.5.5":
   version "7.14.5"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.14.5.tgz#23b08d740e83f49c5e59945fbf1b43e80bbf4edb"
@@ -1519,11 +1524,6 @@
   integrity sha512-xkNcLAn/wZaX14RPlwizcKicDk9G3F8m2nU3L7Ukm5zBgTwiT0wsoFAHx9Jq56fJA1z/7uKGtCRu16sOUCLIHQ==
   dependencies:
     type-detect "4.0.8"
-
-"@sushiswap/core@^2.0.0-canary.1":
-  version "2.0.0-canary.1"
-  resolved "https://registry.yarnpkg.com/@sushiswap/core/-/core-2.0.0-canary.1.tgz#91c938668282d463e4fce6e0cf4d320ce5f3768f"
-  integrity sha512-6YFT4EKgm0XgfwCBsKx5HrDtRI6EvhZHipjBKegdTV0b2zKuXnmdyZ+RwPCr0mCKq2pKB0qIiqCxfbgXYDlLCQ==
 
 "@sushiswap/prettier-config@^0.1.0":
   version "0.1.0"

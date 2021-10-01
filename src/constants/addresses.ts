@@ -17,7 +17,7 @@ export const USDC_ADDRESS: AddressMap = {
 }
 
 export const FACTORY_ADDRESS: AddressMap = {
-  [ChainId.MAINNET]: '',
+  [ChainId.MAINNET]: '0xe12Ab4A5Fae3a7893aD9640ea4E5AC17aBe1D17b',
   [ChainId.ROPSTEN]: '0x8076F2AA415b1bEF34a39F6EDc6Bb3Dc1Ea33ce8',
   [ChainId.RINKEBY]: '0x37F14E7c2FadC2A01dBD93b8a1F69D41c6c3d554',
   [ChainId.GÖRLI]: '',
@@ -48,7 +48,7 @@ export const FACTORY_ADDRESS: AddressMap = {
 }
 
 export const ROUTER_ADDRESS: AddressMap = {
-  [ChainId.MAINNET]: '',
+  [ChainId.MAINNET]: '0x3782cC428BDb10b259E858424a9fdAdB879638b2',
   [ChainId.RINKEBY]: '0x8076F2AA415b1bEF34a39F6EDc6Bb3Dc1Ea33ce8',
   [ChainId.ROPSTEN]: '0x2b64d24a180b4247F765FFA832113473Fb938237',
   [ChainId.GÖRLI]: '',
@@ -101,7 +101,7 @@ export const REWARD_ADDRESS: AddressMap = {
 }
 
 export const MASTERCHEF_ADDRESS: AddressMap = {
-  [ChainId.MAINNET]: '',
+  [ChainId.MAINNET]: '0x27f29138978365CCc4FbCDDC4431177273fC7ABC',
   [ChainId.ROPSTEN]: '',
   [ChainId.RINKEBY]: '',
   [ChainId.GÖRLI]: '',
@@ -109,7 +109,7 @@ export const MASTERCHEF_ADDRESS: AddressMap = {
 }
 
 export const BAR_ADDRESS: AddressMap = {
-  [ChainId.MAINNET]: '',
+  [ChainId.MAINNET]: '0xC0b85C2230952804811FDD501387651D58eC19Cb',
   [ChainId.ROPSTEN]: '',
   [ChainId.RINKEBY]: '',
   [ChainId.GÖRLI]: '',
@@ -117,7 +117,7 @@ export const BAR_ADDRESS: AddressMap = {
 }
 
 export const MAKER_ADDRESS: AddressMap = {
-  [ChainId.MAINNET]: '',
+  [ChainId.MAINNET]: '0xaa8aCa5097d2DF043aBc761C71c60bAEf6b5D6b4',
   [ChainId.ROPSTEN]: '',
   [ChainId.RINKEBY]: '',
   [ChainId.GÖRLI]: '',
@@ -207,7 +207,7 @@ export const BORING_HELPER_ADDRESS: AddressMap = {
   [ChainId.KOVAN]: '',
   [ChainId.MATIC]: '',
   [ChainId.XDAI]: '',
-  [ChainId.BSC]: '',
+  [ChainId.BSC]: '0xbE9ff6A58428186cf972853680b36E0402Cf5719',
   [ChainId.ARBITRUM]: '',
   [ChainId.AVALANCHE]: '',
   [ChainId.HECO]: ''

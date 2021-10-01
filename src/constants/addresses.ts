@@ -79,15 +79,15 @@ export const ROUTER_ADDRESS: AddressMap = {
 }
 
 export const REWARD_ADDRESS: AddressMap = {
-  [ChainId.MAINNET]: '',
+  [ChainId.MAINNET]: '0x2b64d24a180b4247F765FFA832113473Fb938237',
   [ChainId.ROPSTEN]: '0xf2A44fA79B068c95De75C659ce0b8993e4fE9662',
   [ChainId.RINKEBY]: '0x2b64d24a180b4247F765FFA832113473Fb938237',
   [ChainId.GÖRLI]: '',
   [ChainId.KOVAN]: '',
-  [ChainId.FANTOM]: '',
-  [ChainId.MATIC]: '',
-  [ChainId.XDAI]: '',
-  [ChainId.BSC]: '',
+  [ChainId.FANTOM]: '0x2b64d24a180b4247F765FFA832113473Fb938237',
+  [ChainId.MATIC]: '0x2b64d24a180b4247F765FFA832113473Fb938237',
+  [ChainId.XDAI]: '0x2b64d24a180b4247F765FFA832113473Fb938237',
+  [ChainId.BSC]: '0x2b64d24a180b4247F765FFA832113473Fb938237',
   [ChainId.BSC_TESTNET]: '0x2b64d24a180b4247F765FFA832113473Fb938237',
   [ChainId.ARBITRUM]: '',
   [ChainId.AVALANCHE]: '',
@@ -105,7 +105,7 @@ export const MASTERCHEF_ADDRESS: AddressMap = {
   [ChainId.ROPSTEN]: '',
   [ChainId.RINKEBY]: '',
   [ChainId.GÖRLI]: '',
-  [ChainId.KOVAN]: ''
+  [ChainId.BSC_TESTNET]: '0x27f29138978365CCc4FbCDDC4431177273fC7ABC'
 }
 
 export const BAR_ADDRESS: AddressMap = {
@@ -113,7 +113,7 @@ export const BAR_ADDRESS: AddressMap = {
   [ChainId.ROPSTEN]: '',
   [ChainId.RINKEBY]: '',
   [ChainId.GÖRLI]: '',
-  [ChainId.KOVAN]: ''
+  [ChainId.BSC_TESTNET]: '0xC0b85C2230952804811FDD501387651D58eC19Cb'
 }
 
 export const MAKER_ADDRESS: AddressMap = {
@@ -121,7 +121,7 @@ export const MAKER_ADDRESS: AddressMap = {
   [ChainId.ROPSTEN]: '',
   [ChainId.RINKEBY]: '',
   [ChainId.GÖRLI]: '',
-  [ChainId.KOVAN]: ''
+  [ChainId.BSC_TESTNET]: '0xaa8aCa5097d2DF043aBc761C71c60bAEf6b5D6b4'
 }
 
 export const TIMELOCK_ADDRESS: AddressMap = {
@@ -214,8 +214,8 @@ export const BORING_HELPER_ADDRESS: AddressMap = {
 }
 
 export const STOP_LIMIT_ORDER_ADDRESS: AddressMap = {
-  [ChainId.KOVAN]: '',
-  [ChainId.MATIC]: ''
+  [ChainId.KOVAN]: '0xce9365dB1C99897f04B3923C03ba9a5f80E8DB87',
+  [ChainId.MATIC]: '0x1aDb3Bd86bb01797667eC382a0BC6A9854b4005f'
 }
 
 export const ARCHER_ROUTER_ADDRESS: AddressMap = {
@@ -225,6 +225,7 @@ export const ARCHER_ROUTER_ADDRESS: AddressMap = {
 export const MINICHEF_ADDRESS: AddressMap = {
   [ChainId.MATIC]: '',
   [ChainId.XDAI]: '',
+  [ChainId.BSC_TESTNET]: '0xf2A44fA79B068c95De75C659ce0b8993e4fE9662',
   [ChainId.HARMONY]: '',
   [ChainId.ARBITRUM]: ''
 }

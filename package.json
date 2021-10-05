@@ -1,7 +1,7 @@
 {
   "name": "@ammswap/sdk",
   "license": "MIT",
-  "version": "9.1.0",
+  "version": "9.1.1",
   "description": "🛠 An SDK for building applications on top of AMM Swap.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

@@ -57,7 +57,7 @@
     "eip-712": "^0.4.3"
   },
   "devDependencies": {
-    "@ammswap/core": "^3.0.7",
+    "@ammswap/core": "^3.0.9",
     "@ethersproject/abi": "^5.4.0",
     "@ethersproject/abstract-signer": "^5.4.0",
     "@ethersproject/address": "^5.4.0",

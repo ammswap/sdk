@@ -17,7 +17,7 @@ export const USDC_ADDRESS: AddressMap = {
 }
 
 export const FACTORY_ADDRESS: AddressMap = {
-  [ChainId.MAINNET]: '',
+  [ChainId.MAINNET]: '0xe12Ab4A5Fae3a7893aD9640ea4E5AC17aBe1D17b',
   [ChainId.ROPSTEN]: '0x8076F2AA415b1bEF34a39F6EDc6Bb3Dc1Ea33ce8',
   [ChainId.RINKEBY]: '0x37F14E7c2FadC2A01dBD93b8a1F69D41c6c3d554',
   [ChainId.GÖRLI]: '',
@@ -29,10 +29,10 @@ export const FACTORY_ADDRESS: AddressMap = {
   [ChainId.XDAI]: '0xe12Ab4A5Fae3a7893aD9640ea4E5AC17aBe1D17b',
   [ChainId.BSC]: '0xe12Ab4A5Fae3a7893aD9640ea4E5AC17aBe1D17b',
   [ChainId.BSC_TESTNET]: '0x37F14E7c2FadC2A01dBD93b8a1F69D41c6c3d554',
-  [ChainId.ARBITRUM]: '',
+  [ChainId.ARBITRUM]: '0xe12Ab4A5Fae3a7893aD9640ea4E5AC17aBe1D17b',
   [ChainId.ARBITRUM_TESTNET]: '',
   [ChainId.MOONBEAM_TESTNET]: '',
-  [ChainId.AVALANCHE]: '',
+  [ChainId.AVALANCHE]: '0xe12Ab4A5Fae3a7893aD9640ea4E5AC17aBe1D17b',
   [ChainId.AVALANCHE_TESTNET]: '',
   [ChainId.HECO]: '',
   [ChainId.HECO_TESTNET]: '',
@@ -48,7 +48,7 @@ export const FACTORY_ADDRESS: AddressMap = {
 }
 
 export const ROUTER_ADDRESS: AddressMap = {
-  [ChainId.MAINNET]: '',
+  [ChainId.MAINNET]: '0x3782cC428BDb10b259E858424a9fdAdB879638b2',
   [ChainId.RINKEBY]: '0x8076F2AA415b1bEF34a39F6EDc6Bb3Dc1Ea33ce8',
   [ChainId.ROPSTEN]: '0x2b64d24a180b4247F765FFA832113473Fb938237',
   [ChainId.GÖRLI]: '',
@@ -60,14 +60,14 @@ export const ROUTER_ADDRESS: AddressMap = {
   [ChainId.XDAI]: '0x3782cC428BDb10b259E858424a9fdAdB879638b2',
   [ChainId.BSC]: '0x3782cC428BDb10b259E858424a9fdAdB879638b2',
   [ChainId.BSC_TESTNET]: '0x8076F2AA415b1bEF34a39F6EDc6Bb3Dc1Ea33ce8',
-  [ChainId.ARBITRUM]: '',
+  [ChainId.ARBITRUM]: '0x3782cC428BDb10b259E858424a9fdAdB879638b2',
   [ChainId.ARBITRUM_TESTNET]: '',
   [ChainId.MOONBEAM_TESTNET]: '',
   [ChainId.AVALANCHE]: '0x3782cC428BDb10b259E858424a9fdAdB879638b2',
   [ChainId.AVALANCHE_TESTNET]: '',
   [ChainId.HECO]: '',
   [ChainId.HECO_TESTNET]: '',
-  [ChainId.HARMONY]: '',
+  [ChainId.HARMONY]: '0x3782cC428BDb10b259E858424a9fdAdB879638b2',
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.OKEX]: '',
   [ChainId.OKEX_TESTNET]: '',
@@ -84,9 +84,9 @@ export const REWARD_ADDRESS: AddressMap = {
   [ChainId.RINKEBY]: '',
   [ChainId.GÖRLI]: '',
   [ChainId.KOVAN]: '',
-  [ChainId.FANTOM]: '',
-  [ChainId.MATIC]: '',
-  [ChainId.XDAI]: '',
+  [ChainId.FANTOM]: '0x37F14E7c2FadC2A01dBD93b8a1F69D41c6c3d554',
+  [ChainId.MATIC]: '0x37F14E7c2FadC2A01dBD93b8a1F69D41c6c3d554',
+  [ChainId.XDAI]: '0x37F14E7c2FadC2A01dBD93b8a1F69D41c6c3d554',
   [ChainId.BSC]: '0x37F14E7c2FadC2A01dBD93b8a1F69D41c6c3d554',
   [ChainId.BSC_TESTNET]: '0x2b64d24a180b4247F765FFA832113473Fb938237',
   [ChainId.ARBITRUM]: '',
@@ -137,10 +137,10 @@ export const BENTOBOX_ADDRESS: AddressMap = {
   [ChainId.RINKEBY]: '',
   [ChainId.GÖRLI]: '',
   [ChainId.KOVAN]: '',
-  [ChainId.FANTOM]: '',
-  [ChainId.MATIC]: '',
+  [ChainId.FANTOM]: '0x6704b8b3cf461633F74A492e71acE58bEE4Ae684',
+  [ChainId.MATIC]: '0x6704b8b3cf461633F74A492e71acE58bEE4Ae684',
   [ChainId.MATIC_TESTNET]: '',
-  [ChainId.XDAI]: '',
+  [ChainId.XDAI]: '0x6704b8b3cf461633F74A492e71acE58bEE4Ae684',
   [ChainId.BSC]: '0x30F690f418fb642E014f7C7eE93CE8cff8B3bF7A',
   [ChainId.BSC_TESTNET]: '',
   [ChainId.ARBITRUM]: '',
@@ -207,9 +207,9 @@ export const CHAINLINK_ORACLE_ADDRESS: AddressMap = {
 
 export const BORING_HELPER_ADDRESS: AddressMap = {
   [ChainId.MAINNET]: '',
-  [ChainId.KOVAN]: '',
-  [ChainId.MATIC]: '',
-  [ChainId.XDAI]: '',
+  [ChainId.FANTOM]: '0xCaa31331c823946e675E6A72968E67A9501e5648',
+  [ChainId.MATIC]: '0x3AE088F72E17c7B7c71f1B4d962eC0C84401b51a',
+  [ChainId.XDAI]: '0x0f7ca9e2F214021EdC97c1f48D686bd4fcf852ea',
   [ChainId.BSC]: '0x956Db8BdCc3e841546765aF005e49Ac5026C3121',
   [ChainId.ARBITRUM]: '',
   [ChainId.AVALANCHE]: '',
@@ -226,8 +226,9 @@ export const ARCHER_ROUTER_ADDRESS: AddressMap = {
 }
 
 export const MINICHEF_ADDRESS: AddressMap = {
-  [ChainId.MATIC]: '',
-  [ChainId.XDAI]: '',
+  [ChainId.FANTOM]: '0x2b64d24a180b4247F765FFA832113473Fb938237',
+  [ChainId.MATIC]: '0x2b64d24a180b4247F765FFA832113473Fb938237',
+  [ChainId.XDAI]: '0x2b64d24a180b4247F765FFA832113473Fb938237',
   [ChainId.BSC_TESTNET]: '0xf2A44fA79B068c95De75C659ce0b8993e4fE9662',
   [ChainId.HARMONY]: '',
   [ChainId.ARBITRUM]: ''

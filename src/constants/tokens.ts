@@ -39,7 +39,8 @@ export const WETH9: TokenMap = {
   [ChainId.HECO]: new Token(ChainId.HECO, WETH9_ADDRESS[ChainId.HECO], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.HARMONY]: new Token(ChainId.HARMONY, WETH9_ADDRESS[ChainId.HARMONY], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.XDAI]: new Token(ChainId.XDAI, WETH9_ADDRESS[ChainId.XDAI], 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.AVALANCHE]: new Token(ChainId.AVALANCHE, WETH9_ADDRESS[ChainId.AVALANCHE], 18, 'WETH', 'Wrapped Ether')
+  [ChainId.AVALANCHE]: new Token(ChainId.AVALANCHE, WETH9_ADDRESS[ChainId.AVALANCHE], 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.PEGC]: new Token(ChainId.PEGC, WETH9_ADDRESS[ChainId.PEGC], 18, 'ETHP', 'Peg Ethereum'),
 }
 
 export const WNATIVE: TokenMap = {
@@ -105,6 +106,13 @@ export const WNATIVE: TokenMap = {
     18,
     'WONE',
     'Wrapped ONE'
+  ),
+  [ChainId.PEGC]: new Token(
+    ChainId.PEGC,
+    WNATIVE_ADDRESS[ChainId.PEGC],
+    18,
+    'WPEGC',
+    'Wrapped PEGC'
   ),
   [ChainId.OKEX]: new Token(ChainId.OKEX, WNATIVE_ADDRESS[ChainId.OKEX], 18, 'WOKT', 'Wrapped OKExChain'),
   [ChainId.OKEX_TESTNET]: new Token(

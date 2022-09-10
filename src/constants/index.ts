@@ -34,7 +34,8 @@ export const INIT_CODE_HASH: { [chainId: number]: string } = {
   [ChainId.CELO]: '0xa206edb26cf734004c9be5a66304bd14c2f72b2ec8c2f5a3738ea103251a34c1',
   [ChainId.PALM]: '0xa206edb26cf734004c9be5a66304bd14c2f72b2ec8c2f5a3738ea103251a34c1',
   [ChainId.MOONRIVER]: '0xa206edb26cf734004c9be5a66304bd14c2f72b2ec8c2f5a3738ea103251a34c1',
-  [ChainId.FUSE]: '0xa206edb26cf734004c9be5a66304bd14c2f72b2ec8c2f5a3738ea103251a34c1'
+  [ChainId.FUSE]: '0xa206edb26cf734004c9be5a66304bd14c2f72b2ec8c2f5a3738ea103251a34c1',
+  [ChainId.PEGC]: '0xa206edb26cf734004c9be5a66304bd14c2f72b2ec8c2f5a3738ea103251a34c1',
 }
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
